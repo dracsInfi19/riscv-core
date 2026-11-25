@@ -12,9 +12,11 @@
 
 ## Status
 
+Last updated: 2026-11-25. Full history in [docs/progress.md](docs/progress.md).
+
 | Block | RTL | Testbench | Status |
 |---|---|---|---|
-| ALU | `rtl/alu.v` | `tb/alu_tb.v` | Not started |
+| ALU | `rtl/alu.v` | `tb/alu_tb.v` | In progress: module interface, operation encoding, ADD / SUB / AND written; OR, XOR, SLL, SRL, SRA, SLT, SLTU, `zero` output and testbench pending |
 | Register file | `rtl/regfile.v` | `tb/regfile_tb.v` | Not started |
 | Immediate generator | `rtl/imm_gen.v` | `tb/imm_gen_tb.v` | Not started |
 | Control unit / decoder | `rtl/control.v` | `tb/control_tb.v` | Not started |
@@ -78,6 +80,7 @@ Filled in after the benchmarks are run.
 
 ## Documentation
 
+- [Progress log](docs/progress.md)
 - [Architecture](docs/architecture.md)
 - [ISA subset](docs/isa-subset.md)
 - [ALU specification](docs/alu-spec.md)
